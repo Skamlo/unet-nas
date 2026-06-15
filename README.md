@@ -6,6 +6,10 @@ Neural Architecture Search (NAS) over a U-Net design space for brain-MRI tumor s
 
 Binary segmentation of tumor regions from brain MRI slices (`data/mri`, paired `*.tif` images and `*_mask.tif` masks). Train/validation split is done by patient to avoid leakage between adjacent slices of the same subject.
 
+## Dataset
+
+Data comes from this dataset: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
+
 ## Method
 
 The search is driven by a genetic algorithm (GA) that optimizes a size-aware fitness:
